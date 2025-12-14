@@ -255,7 +255,7 @@ const float HYS = 0.5;            // Adjust buffer zone
 
 This project is open source and available under the MIT License.
 
-Project Link: [https://github.com/yourusername/iot-fan-control](https://github.com/yourusername/iot-fan-control)
+Project Link: [https://github.com/renatotan96/IoT-Automated-Fan-Control-System]((https://github.com/renatotan96/IoT-Automated-Fan-Control-System))
 
 ---
 
