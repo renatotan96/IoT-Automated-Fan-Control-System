@@ -5,16 +5,16 @@ A temperature-responsive fan control system built with Arduino that dynamically 
 ![Project Demo](media/image12.jpeg)
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Technical Stack](#technical-stack)
-- [Hardware Components](#hardware-components)
-- [System Architecture](#system-architecture)
-- [Implementation Highlights](#implementation-highlights)
-- [Performance Results](#performance-results)
-- [Future Enhancements](#future-enhancements)
-- [Setup & Installation](#setup--installation)
-- [References](#references)
+- [Overview](##overview)
+- [Key Features](##key-features)
+- [Technical Stack](##technical-stack)
+- [Hardware Components](##hardware-components)
+- [System Architecture](##system-architecture)
+- [Implementation Highlights](##implementation-highlights)
+- [Performance Results](##performance-results)
+- [Future Enhancements](##future-enhancements)
+- [Setup & Installation](##setup--installation)
+- [References](##references)
 
 ## 🎯 Overview
 
