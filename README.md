@@ -206,7 +206,7 @@ if (currentTime >= 18:00 && currentTime <= 06:00) {
 ### Software Setup
 ```bash
 # 1. Clone this repository
-git clone https://github.com/yourusername/iot-fan-control.git
+git clone https://github.com/renatotan96/IoT-Automated-Fan-Control-System.git
 
 # 2. Open AutomatedFanControl.ino in Arduino IDE
 
@@ -242,6 +242,30 @@ const float HYS = 0.5;            // Adjust buffer zone
 - Optimized Arduino memory usage for embedded systems
 - Troubleshot hardware-software integration challenges
 - Created professional technical documentation
+
+## Technical Improvements
+
+- Predictive Temperature Control
+  Implementation:
+  ```cpp
+  // Collect data patterns
+         struct TempLog {
+    float temp;
+    int fanSpeed;
+    unsigned long timestamp;
+    int hourOfDay;
+    int dayOfWeek;};
+         // Learn usage patterns
+                  void predictiveControl() {
+                  // Analyze: "Office heats up 2°C between 9-10am every weekday"
+                  // Action: Pre-cool at 8:45am to maintain comfort
+  }
+  ```
+  Proactive cooling: Start fan before temperature spikes
+  Energy Efficiency: Avoiding high-speed bursts during operation
+  Predictive maintenance: Detect sensor drift or motor degradation early
+  Target market: Smart buildings, data centers etc.
+  Angle: Price markup for 'AI' features
 
 ## 📚 References
 
